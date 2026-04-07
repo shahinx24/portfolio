@@ -1,0 +1,72 @@
+.container {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.content-section {
+  padding: 2rem 0;
+}
+
+.surface-card {
+  border: 1px solid rgba(13, 27, 61, 0.08);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 22px 50px rgba(24, 76, 158, 0.08);
+}
+
+.eyebrow {
+  margin: 0 0 0.9rem;
+  color: #1f6feb;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.section-heading {
+  max-width: 720px;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading h2,
+.contact-copy h2,
+.hero-copy h1 {
+  margin: 0;
+  font-family: "Playfair Display", Georgia, serif;
+  line-height: 1.02;
+}
+
+.section-heading h2,
+.contact-copy h2 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+}
+
+.primary-button,
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 1.2rem;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-button {
+  background: linear-gradient(135deg, #1f6feb, #1257c7);
+  color: #ffffff;
+}
+
+.secondary-button {
+  background: #ffffff;
+  color: #0d1b3d;
+  border: 1px solid rgba(13, 27, 61, 0.12);
+}
+
+@media (max-width: 1024px) {
+  .content-section {
+    padding: 1.5rem 0;
+  }
+}
